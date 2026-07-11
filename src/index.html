@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SL Limitless</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="tr">
+    <div id="grid-hud">
+        <!-- Update Notification (Hidden by default) -->
+        <div id="update-banner" style="display:none;">UPDATE_AVAILABLE</div>
+
+        <div class="stat-box">
+            <span class="label" id="gpu-model">GPU</span>
+            <span id="gpu-usage" class="value">--%</span>
+        </div>
+        <div class="stat-box">
+            <span class="label">VRAM</span>
+            <span id="vram-val" class="value">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="label" id="cpu-model">CPU</span>
+            <span id="cpu-usage" class="value">--%</span>
+        </div>
+        <div class="stat-box">
+            <span class="label">CLOCK</span>
+            <span id="cpu-clock" class="value">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="label">RAM</span>
+            <span id="ram-val" class="value">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="label">DISK C:</span>
+            <span id="disk-val" class="value">--</span>
+        </div>
+        <div class="stat-box" id="temp-box" style="display:none;">
+            <span class="label">TEMP</span>
+            <span id="temp-val" class="value">--</span>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
