@@ -20,13 +20,13 @@ SL Limitless was built for developers and power users who need to monitor system
 
 ### ⌨️ Shortcuts & Controls
 *Note: Since the HUD is click-through, controls are handled via the system tray or your custom shortcuts.*
-- **To Move/Configure:** [Insert your shortcut here, e.g., Ctrl + Shift + P]
-- **To Exit:** Right-click the Siltleaf icon in the Windows System Tray (bottom right).
+- **To Move/Configure:** Alt + Shift + M to cycle the HUD throughout the 4 corners and Alt + Shift + UpArrow/DownArrow to resize.
+- **To Exit:** Alt + Shift + X t close. 
 
 ### 📦 Installation
 1. Download `SL_Limitless_Setup_1.0.0.exe` from the [Latest Release](https://github.com/siltleaf/sl-limitless/releases).
 2. Run the installer.
-3. Launch from the Desktop or Start Menu.
+3. Launch from the Desktop or Start Menu or simply right click the shorcut, select properperties then enter the shorcut keys you wish to use to start the app without manually clicking the shorcut everytime.
 
 ---
 <div align="center">
